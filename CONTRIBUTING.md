@@ -6,7 +6,7 @@
 
 3. Clone the Forked Repository: In your forked repository, click the Code button and copy the HTTPS link.
 
-4, Clone the Project Locally: Create a folder to hold the cloned project. Open that folder in your terminal, then run the following command (replace HTTPS-Link with the actual link you copied):
+4. Clone the Project Locally: Create a folder to hold the cloned project. Open that folder in your terminal, then run the following command (replace HTTPS-Link with the actual link you copied):
 ![alt text](image.png)
 
 5. Install Dependencies: To ensure everything works, navigate to the project directory in your terminal and run:
