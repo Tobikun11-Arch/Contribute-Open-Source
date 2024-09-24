@@ -34,7 +34,10 @@
     *git checkout -b scrum-17
     This command will create and switch you to a new branch named scrum-17, based on the stage branch.
 
-2. Make Your Changes
+2.5 Existing branch
+    before pushing a new update, *git pull origin *branchname
+
+2. Make Your Changes        
     You can now modify the code as needed.
 
 
@@ -71,8 +74,12 @@
     - Implemented the NotFound page.
     - Encountered an issue with the SiteHeader, so I added some comments to explain the problem.
 
-4. Assign Reviewers (if applicable)
+4. Request Reviewers (if applicable)
     If your project requires code review, assign reviewers as necessary.
 
 5. Create the Pull Request
     Once everything is filled out, click the green "Create pull request" button.
+
+
+TIPS:
+If you push code and create a PR, you can modify the file again and push it, and the changes will be reflected in your PR.
