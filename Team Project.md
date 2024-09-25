@@ -11,3 +11,18 @@ In the terminal of your project, create a new branch called `stage` for staging 
 ```bash
 git checkout -b stage
 git push origin stage
+
+## 4. Merge Changes from the stage Branch into the main Branch
+To merge the changes from the stage branch into the main branch, you can follow these steps
+
+Switch to the main branch:
+git checkout main
+
+Pull the latest changes from the remote main branch:
+git pull origin main
+
+Merge the stage branch into the main branch:
+git merge stage
+
+Push the updated main branch back to the remote repository:
+git push origin main
