@@ -15,14 +15,15 @@ git push origin stage
 ## 4. Merge Changes from the stage Branch into the main Branch
 To merge the changes from the stage branch into the main branch, you can follow these steps
 
-Switch to the main branch:
-git checkout main
+Merge it using github website, you can pr it on web
 
-Pull the latest changes from the remote main branch:
-git pull origin main
 
-Merge the stage branch into the main branch:
-git merge stage
+Github branches settings:
+Require a pull request before merging 
+Require approvals 
 
-Push the updated main branch back to the remote repository:
-git push origin main
+Require status checks to pass before merging 
+Require branches to be up to date before merging 
+
+Require conversation resolution before merging 
+Require linear history 
